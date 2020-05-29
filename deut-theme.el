@@ -40,6 +40,7 @@
 (defvar deut-colors-alist
   '(("deut-fg+1"     . "#FFFFEF")
     ("deut-fg"       . "#DCDCCC")
+    ("deut-fg-05"    . "#99998E")
     ("deut-fg-1"     . "#70705E")
     ("deut-bg-2"     . "#000000")
     ("deut-bg-1"     . "#202020")
@@ -774,7 +775,7 @@ Also bind `class' to ((class color) (min-colors 89))."
      ((t (:foreground ,deut-fg+1 :slant italic :weight bold))) t)
    `(org-agenda-structure
      ((t (:inherit font-lock-comment-face))))
-   '(org-agenda-dimmed-todo-face ((t (:foreground ,deut-bg-1))))
+   `(org-agenda-dimmed-todo-face ((t (:foreground ,deut-fg-05))))
    `(org-archived ((t (:foreground ,deut-fg :weight bold))))
    `(org-checkbox ((t (:background ,deut-bg+2 :foreground ,deut-fg+1
                                    :box (:line-width 1 :style released-button)))))
