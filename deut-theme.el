@@ -33,7 +33,7 @@
 
 ;;; Code:
 
-(deftheme hc-zenburn "An higher constrast Zenburn color theme")
+(deftheme deut "An higher constrast Zenburn color theme")
 
 ;;; Color Palette
 
