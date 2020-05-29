@@ -774,6 +774,7 @@ Also bind `class' to ((class color) (min-colors 89))."
      ((t (:foreground ,deut-fg+1 :slant italic :weight bold))) t)
    `(org-agenda-structure
      ((t (:inherit font-lock-comment-face))))
+   '(org-agenda-dimmed-todo-face ((t (:foreground "grey80"))))
    `(org-archived ((t (:foreground ,deut-fg :weight bold))))
    `(org-checkbox ((t (:background ,deut-bg+2 :foreground ,deut-fg+1
                                    :box (:line-width 1 :style released-button)))))
