@@ -783,7 +783,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(org-formula ((t (:foreground ,hc-zenburn-yellow-2))))
    `(org-headline-done ((t (:foreground ,hc-zenburn-green+3))))
    `(org-hide ((t (:foreground ,hc-zenburn-bg-1))))
-   `(org-level-1 ((t (:foreground ,hc-zenburn-orange))))
+   `(org-level-1 ((t (:foreground ,hc-zenburn-orange :height 10))))
    `(org-level-2 ((t (:foreground ,hc-zenburn-green+4))))
    `(org-level-3 ((t (:foreground ,hc-zenburn-blue-1))))
    `(org-level-4 ((t (:foreground ,hc-zenburn-yellow-2))))
