@@ -107,7 +107,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(header-line ((t (:foreground ,hc-zenburn-yellow
                                   :background ,hc-zenburn-bg-1
                                   :box (:line-width -1 :style released-button)))))
-   `(highlight ((t (:background ,hc-zenburn-bg-05))))
+   `(highlight ((t (:background ,hc-zenburn-bg+1))))
    `(success ((t (:foreground ,hc-zenburn-green :weight bold))))
    `(warning ((t (:foreground ,hc-zenburn-orange :weight bold))))
 ;;;;; compilation
