@@ -779,7 +779,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(org-archived ((t (:foreground ,deut-fg :weight bold))))
    `(org-checkbox ((t (:background ,deut-bg+2 :foreground ,deut-fg+1
                                    :box (:line-width 1 :style released-button)))))
-   '(org-code ((t (:foreground ,deut-blue-1))))
+   `(org-code ((t (:foreground ,deut-blue+1))))
    `(org-date ((t (:foreground ,deut-blue :underline t))))
    `(org-deadline-announce ((t (:foreground ,deut-red-1))))
    `(org-done ((t (:bold t :weight bold :foreground ,deut-green+3))))
