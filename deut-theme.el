@@ -108,7 +108,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(header-line ((t (:foreground ,deut-yellow
                                   :background ,deut-bg-1
                                   :box (:line-width -1 :style released-button)))))
-   `(highlight ((t (:background ,deut-bg+1 :inverse-video t))))
+   `(highlight ((t (:background ,deut-bg+1))))
    `(success ((t (:foreground ,deut-green :weight bold))))
    `(warning ((t (:foreground ,deut-orange :weight bold))))
 ;;;;; compilation
