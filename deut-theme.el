@@ -153,7 +153,7 @@ Also bind `class' to ((class color) (min-colors 89))."
      ((t (:foreground ,deut-green-1
                       :background ,deut-bg-05
                       :box (:line-width -1 :style released-button)))))
-   `(region ((,class (:background ,deut-bg+1 :inverse-video t)))
+   `(region ((,class (:background ,deut-bg+1 :inverse-video t))))
    `(secondary-selection ((t (:background ,deut-bg+2))))
    `(trailing-whitespace ((t (:background ,deut-red))))
    `(vertical-border ((t (:foreground ,deut-fg))))
