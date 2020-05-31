@@ -153,7 +153,7 @@ Also bind `class' to ((class color) (min-colors 89))."
      ((t (:foreground ,deut-green-1
                       :background ,deut-bg-05
                       :box (:line-width -1 :style released-button)))))
-   `(region ((,class (:background ,deut-bg+1 :inverse-video t))))
+   `(region ((,class (:background ,deut-bg+3))))
    `(secondary-selection ((t (:background ,deut-bg+2))))
    `(trailing-whitespace ((t (:background ,deut-red))))
    `(vertical-border ((t (:foreground ,deut-fg))))
@@ -778,7 +778,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(org-archived ((t (:foreground ,deut-fg :weight bold))))
    `(org-checkbox ((t (:background ,deut-bg+2 :foreground ,deut-fg+1
                                    :box (:line-width 1 :style released-button)))))
-   `(org-code ((t (:inverse-video t :box (:line-width 2 :color ,deut-bg-05)))))
+   `(org-code ((t (:box (:line-width 2 :color ,deut-bg-05) :background ,deut-bg+2 :foreground ,deut-fg+1))))
    `(org-date ((t (:foreground ,deut-blue :underline t))))
    `(org-deadline-announce ((t (:foreground ,deut-red-1))))
    `(org-done ((t (:bold t :weight bold :foreground ,deut-green+3))))
