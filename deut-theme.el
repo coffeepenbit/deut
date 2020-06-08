@@ -55,7 +55,7 @@
     ("deut-red-1"    . "#C99090")
     ("deut-red-2"    . "#B98080")
     ("deut-red-3"    . "#A97070")
-    ("deut-red-4"    . "#996060")
+    ("deut-red-4"    . "#8C0539")
     ("deut-orange"   . "#ECBC9C")
     ("deut-yellow"   . "#FDECBC")
     ("deut-yellow-1" . "#EDDCAC")
@@ -72,7 +72,7 @@
     ("deut-blue-1"   . "#89C5C8")
     ("deut-blue-2"   . "#79ADB0")
     ("deut-blue-3"   . "#699598")
-    ("deut-blue-4"   . "#597D80")
+    ("deut-blue-4"   . "#00B6FF")
     ("deut-blue-5"   . "#436D6D")
     ("deut-magenta"  . "#E090C7"))
   "List of Deut colors.
